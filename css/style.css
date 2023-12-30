@@ -112,7 +112,6 @@ img {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
-  margin-bottom: 120px;
 }
 .main-title {
   color: #fff;
@@ -186,7 +185,6 @@ img {
 }
 
 .features {
-  margin-bottom: 120px;
   padding: 120px 0;
 }
 
@@ -240,9 +238,9 @@ img {
   text-align: center;
 }
 .portfolio {
-  margin-bottom: 120px;
   padding: 120px 0;
-  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+  border-top: none;
 }
 
 .portfolio-list {
@@ -279,6 +277,7 @@ img {
 .logo-footer {
   display: inline-block;
   margin-bottom: 16px;
+  padding: 0;
 }
 
 .footer-info {
@@ -286,7 +285,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-  margin-top: 17.5px;
 }
 
 .studio-word {
